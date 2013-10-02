@@ -8,6 +8,7 @@ ul, li {
     height: 375px;
     background: #FBFBFB;
     margin: 0 auto;  
+    position: relative;
 }
 
 #header {
@@ -52,6 +53,15 @@ ul {
     margin: 0 auto;
     padding: 0;
     box-shadow: 0 0 0.1em rgba(0,0,0,0.5);
+}
+
+ul:before {
+    content: "";
+    background: url(up-arrow.png) no-repeat 0 0;
+    position: absolute;
+    top: 54px;right: 94px;
+    width: 20px; height: 20px;
+
 }
 
 li {
