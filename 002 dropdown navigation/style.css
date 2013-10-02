@@ -1,0 +1,108 @@
+ul, li {
+ -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+#wrap {
+    width: 400px;
+    height: 375px;
+    background: #FBFBFB;
+    margin: 0 auto;  
+}
+
+#header {
+    height: 55px;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.notification-icon {
+    width: 35px;
+    height: 35px;
+    background: #fff url(bell.jpg) no-repeat 50% 50%;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    position: absolute;
+    right: 87px;
+    top: 10px;
+    margin: 0 auto;
+}
+
+
+.notification-icon span {
+    background: #5796DB;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    border-radius: 10px;
+    padding: 1px 4px;
+    font-size: 0.8em;
+}
+
+
+
+
+
+ul {
+    height: 270px;
+    width: 240px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 0 0.1em rgba(0,0,0,0.5);
+}
+
+li {
+    height: 16.66666%;
+    list-style: none;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 20px;
+    color: #CDCDCD;
+    font-family: Arial;
+    letter-spacing: 0.4px;
+}
+
+li span:last-child {
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+}
+
+li:first-child {
+    background: #5796DB;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    box-shadow: 0 0 0.1em rgba(0,0,0,0.5);
+}
+li:last-child {
+    border-radius: 0 0 2px 2px;
+}
+
+li:nth-child(n+2) span:last-child{
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+li:nth-child(2) span:last-child {
+    background: #F4F4F4;
+    color: #777B85;
+}
+
+li:nth-child(3) span:last-child {
+    background: #CEA3DA;
+}
+li:nth-child(4) span:last-child {
+    background: #F5725A;
+}
+li:nth-child(5) span:last-child {
+    background: #FBBF2F;
+}
+li:nth-child(6) span:last-child {
+    background: #B3B3B3;
+}
+
+
+
