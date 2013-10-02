@@ -1,0 +1,150 @@
+#wrap {
+    width:800px;
+    height: 600px;
+    background: #dce1e3;
+    margin: 0 auto;
+}    
+
+#content {
+    width: 490px;
+    height: 494px;
+    position: relative;
+    left: 155px;
+    top: 65px;
+}
+
+#content-configuration {
+    width: 490px;
+    height: 361px;
+    background: #fafafc;
+    border: 1px solid #c9cacf;
+}
+
+
+
+ul {
+    margin: 0; padding: 0;
+}
+
+li {
+    height: 90px;
+    list-style: none;
+    position: relative;
+    color: #B9BBC1;
+    font-weight: bold;
+}
+
+li:nth-child(1) {
+    background-color: #fafafc;
+    margin-left: 135px;
+}
+
+li:nth-child(1) span{
+    margin-top: 38px;
+    position: absolute;
+}
+
+li:nth-child(1) span:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    position: absolute;
+    background: url(001-setting.jpg) no-repeat 0 0;
+    text-indent: -9999px;
+}
+
+li:nth-child(2) {
+    background-color: #a1d3b5;
+    color: #78A489;
+}
+
+li:nth-child(3) {
+    background-color: #f2f3f6;
+    color: #BBC4C7;
+}
+
+li:nth-child(4) {
+    background-color: #f2f3f6;
+    color: #BBC4C7;
+}
+
+li:nth-child(2) span, li:nth-child(3) span, li:nth-child(4) span {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 38px;
+}
+
+.cc-checkbox {
+    width: 90px !important;
+    height: 100%;
+    background: #8cc1a1;
+    position: absolute;
+    right: 0px;
+    margin: 0px !important;
+    text-indent: -9999px;
+}
+
+li:nth-child(2) .cc-checkbox {
+    background: #8cc1a1 url(001-tick.jpg) no-repeat 50% 50%;
+    
+}
+
+li:nth-child(3) .cc-checkbox, li:nth-child(4) .cc-checkbox {
+    background: #e8eaed url(001-tick-saturated.jpg)  no-repeat 50% 50%;
+}
+
+li:nth-child(3){
+    border-bottom: 1px solid #d8d9dd !important;
+}
+
+
+
+.percent {
+    font-size: 5em;
+    font-weight: bold;
+    color: #B4BEC2;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+.percent span {
+    
+    font-size: 0.4em;
+    position: absolute;
+    right: -35px;
+    top: 10px;
+}
+
+.reviews {
+    font-size: 3em;
+    font-weight: bold;
+    color: #C5CCD0;
+    float: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: right;
+}
+.reviews span:nth-child(1) {
+    letter-spacing: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.reviews span:nth-child(2) {
+    font-size: 0.3em;
+    display: block;
+    text-align: right;
+}
+
+.separator {
+    color: #CCD3D6;
+    font-size:5.2em;
+    float: right;
+    margin-top: -8px;
+    padding: 0 10px;
+}
+
+
+
+
+
