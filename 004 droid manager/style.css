@@ -1,0 +1,173 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+}
+
+h1 {
+    padding: 0px;margin: 0px;
+}
+
+#wrap {
+	width: 400px;
+	height: 300px;
+	background: #FECE85;
+	position: relative;
+}
+
+#mobile {
+    width: 300px;
+    background: #F4F5F1;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;right:0px;   
+}
+
+#left {
+    width: 170px;
+    float: left;
+    background: #4C5157;
+}
+
+#left .heading {
+    border-bottom: 1px solid #CFD0CD;
+    padding-bottom: 10px;
+}
+
+#left h1 {
+    font-size: 1em;
+    color: white;
+    padding: 15px 0px 15px 15px;
+}
+
+#left h1:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: #999999;
+    padding-left: 5px;
+}
+
+#left .heading span {
+    color: #999999;
+}
+
+#left .heading span:first-child {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+
+#left .heading span:first-child:before {
+    content: "\f000";
+    font-family: FontAwesome;
+    padding-right: 4px;
+}
+#left .heading span:last-child:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    padding-right: 4px;
+}
+
+
+ul {
+    margin: 0px;padding: 0px;
+    margin-top: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    color: #BBBBBB;
+}
+
+li:before {
+    content: "\f000";
+    font-family: FontAwesome;    
+    padding: 7px;
+    border-radius: 2px;
+    margin-right: 12px;
+    color: white;
+}
+
+li:nth-child(1):before {
+    content: "\f000";
+    background: #737373;
+}
+
+li:nth-child(2):before {
+    content: "\f001";
+    background: #729DD3;
+}
+
+li:nth-child(3):before {
+    content: "\f002";
+    background: #91BA76;
+}
+
+li:nth-child(4):before {
+    content: "\f003";
+    background: #B87EB5;
+}
+
+li:nth-child(5):before {
+    content: "\f004";
+    background: #FC7668;
+}
+
+
+
+li.active {
+    background: #1E2022;
+    color: white;
+    
+}
+
+#right {
+    width: 130px;
+    float: right;
+}
+
+#right .heading {
+    color: #999999;
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CFD0CD;
+    font-size: 2em;
+}
+
+#right .heading i {
+    padding-right: 10px;
+}
+
+.bar {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.bar span {
+    color: #5D6268;
+    
+}
+
+.bar span:first-child {
+    background: #D6D6D5;
+    padding: 3px;
+    border-radius: 2px;
+    border: 1px solid #C4C4C4;
+    font-weight: bold;
+}
+
+.bar span:last-child {
+    margin-left: 4px;
+}
+.bar {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.bar:before {
+    content: "\f005";
+    font-family: FontAwesome;    
+    color: #FFB628;
+}
